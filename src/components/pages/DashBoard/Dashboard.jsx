@@ -107,6 +107,7 @@ export function DashBoard() {
                                                 </div>
                                             </div>
                                         </div>
+                                        {/* Paso la prop espacio al componente Calendario */}
                                         <Calendario 
                                             espacio={espacio.nombre} 
                                             reservas={reservas.filter(r => r.espacio === espacio.nombre)}
