@@ -1,0 +1,76 @@
+.dashboard-container {
+    min-height: 100vh;
+  }
+  
+  .dashboard-header {
+    background-color: #123c64;
+    padding: 40px 0 20px;
+    margin-bottom: 30px;
+  }
+  
+  .dashboard-stat {
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .dashboard-stat:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .stat-count {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .stat-label {
+    font-size: 1rem;
+    opacity: 0.9;
+  }
+  
+  .espacio-titulo {
+    color: #123c64;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .espacio-imagen {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .espacio-descripcion {
+    color: #666;
+  }
+  
+  .disponible-badge, .reservado-badge {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .disponible-badge {
+    background-color: #28a745;
+  }
+  
+  .reservado-badge {
+    background-color: #dc3545;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-stat {
+      margin-bottom: 20px;
+    }
+    
+    .espacio-imagen {
+      margin-bottom: 15px;
+    }
+  }

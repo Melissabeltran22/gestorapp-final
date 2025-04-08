@@ -1,0 +1,37 @@
+.booking-header {
+    background-color: #123c64;
+    padding: 40px 0 20px;
+    margin-bottom: 30px;
+  }
+  
+  .espacios-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+  }
+  
+  .espacios-card .card-header {
+    background-color: #123c64;
+  }
+  
+  .espacio-item {
+    transition: all 0.3s ease;
+  }
+  
+  .espacio-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .form-control:focus, .form-select:focus {
+    border-color: #123c64;
+    box-shadow: 0 0 0 0.25rem rgba(18, 60, 100, 0.25);
+  }
+  
+  .btn-primary {
+    background-color: #123c64;
+    border-color: #123c64;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0d2d4a;
+    border-color: #0d2d4a;
+  }

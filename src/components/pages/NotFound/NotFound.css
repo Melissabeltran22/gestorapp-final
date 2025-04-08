@@ -1,0 +1,22 @@
+.notfound-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+  
+  .notfound-container h1 {
+    font-size: 8rem;
+    color: #123c64;
+  }
+  
+  .notfound-container h2 {
+    color: #333;
+  }
+  
+  .notfound-container .btn-primary {
+    background-color: #123c64;
+    border-color: #123c64;
+  }
